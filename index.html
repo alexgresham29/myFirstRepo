@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alex Gresham — Summer Bootcamp Portfolio</title>
+  <link rel="stylesheet" href="docs/style.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <div class="container">
+      <span class="brand">Alex Gresham</span>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section id="hero">
+    <div class="container">
+      <p class="eyebrow">Summer Bootcamp 2026 &mdash; Gresham Lab</p>
+      <h1>Alex Gresham</h1>
+      <p class="subtitle">Summer Research Fellow &middot; Gresham Lab, NYU</p>
+      <p class="tagline">
+        Exploring yeast genetics through computation, statistics, and R &mdash;
+        one experiment at a time.
+      </p>
+      <a href="#projects" class="btn btn-primary">View My Work</a>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <div class="container">
+      <p class="section-label">Background</p>
+      <h2 class="section-title">About This Bootcamp</h2>
+      <p>
+        This summer I joined the <strong>Gresham Lab</strong> at NYU for an intensive research
+        bootcamp focused on yeast genetics and genomics. The lab studies how populations of
+        <em>Saccharomyces cerevisiae</em> evolve in response to environmental pressures &mdash;
+        using a combination of experimental evolution and quantitative data analysis.
+      </p>
+      <p>
+        My role has been to build skills in scientific computing and statistics, learning how
+        to move from raw experimental data to meaningful biological insights. Along the way I
+        have picked up R, GitHub, and a much deeper understanding of the statistical methods
+        that underpin modern biology.
+      </p>
+      <div class="skills-row">
+        <span class="skill-badge">R</span>
+        <span class="skill-badge">ggplot2</span>
+        <span class="skill-badge">R Markdown</span>
+        <span class="skill-badge">Statistics</span>
+        <span class="skill-badge">GitHub</span>
+        <span class="skill-badge">Data Visualisation</span>
+        <span class="skill-badge">Yeast Genetics</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <div class="container">
+      <p class="section-label">Work</p>
+      <h2 class="section-title">Bootcamp Projects</h2>
+
+      <div class="cards-grid">
+
+        <!-- Project 1: CLT Notebook -->
+        <div class="card">
+          <img src="docs/images/plot_sampling.png"
+               alt="Faceted histograms showing sampling distributions at n=5, 30, and 100" />
+          <div class="card-body">
+            <h3>Sampling Distribution of the Mean</h3>
+            <p>
+              A full simulation study demonstrating the Central Limit Theorem. Drawing 1,000
+              samples from a deliberately skewed population, I show how sample means converge
+              to a normal distribution as sample size grows &mdash; and verify the standard
+              error formula numerically.
+            </p>
+            <div class="card-tags">
+              <span class="tag">R</span>
+              <span class="tag">ggplot2</span>
+              <span class="tag">R Markdown</span>
+              <span class="tag">CLT</span>
+              <span class="tag">Statistics</span>
+            </div>
+            <a href="sampling_distribution.nb.html" class="btn btn-primary">View Full Notebook</a>
+          </div>
+        </div>
+
+        <!-- Project 2: analysis.R -->
+        <div class="card">
+          <img src="docs/images/plot_population.png"
+               alt="Histogram of the skewed population used in the analysis" />
+          <div class="card-body">
+            <h3>First Steps in R</h3>
+            <p>
+              My first R script &mdash; assigning variables, performing arithmetic operations,
+              and getting comfortable with the language. Every analysis starts somewhere, and
+              this was mine.
+            </p>
+            <div class="card-tags">
+              <span class="tag">R</span>
+              <span class="tag">Variables</span>
+              <span class="tag">Arithmetic</span>
+            </div>
+            <a href="https://github.com/alexgresham29/myFirstRepo/blob/main/analysis.R"
+               target="_blank" class="btn btn-outline">View Code</a>
+          </div>
+        </div>
+
+        <!-- Placeholder -->
+        <div class="card card-placeholder">
+          <div class="card-body" style="justify-content:center; align-items:center; text-align:center;">
+            <div class="placeholder-icon">&#8987;</div>
+            <h3 style="color:#8899aa; font-size:1rem; margin-bottom:0.5rem;">More Coming Soon</h3>
+            <p>Additional experiments and analyses from the bootcamp will appear here as the summer progresses.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <div class="container">
+      <p class="section-label">Toolkit</p>
+      <h2 class="section-title">Skills &amp; Tools</h2>
+
+      <div class="skills-grid">
+
+        <div class="skill-tile">
+          <div class="skill-icon">&#x1F4CA;</div>
+          <h4>R</h4>
+          <p>Statistical computing and scripting</p>
+        </div>
+
+        <div class="skill-tile">
+          <div class="skill-icon">&#x1F58C;</div>
+          <h4>ggplot2</h4>
+          <p>Publication-quality data visualisation</p>
+        </div>
+
+        <div class="skill-tile">
+          <div class="skill-icon">&#x1F4C4;</div>
+          <h4>R Markdown</h4>
+          <p>Reproducible, documented analysis notebooks</p>
+        </div>
+
+        <div class="skill-tile">
+          <div class="skill-icon">&#x1F9EE;</div>
+          <h4>Statistics</h4>
+          <p>CLT, sampling distributions, standard error</p>
+        </div>
+
+        <div class="skill-tile">
+          <div class="skill-icon">&#x1F419;</div>
+          <h4>GitHub</h4>
+          <p>Version control and open science</p>
+        </div>
+
+        <div class="skill-tile">
+          <div class="skill-icon">&#x1F9EC;</div>
+          <h4>Yeast Genetics</h4>
+          <p>Experimental evolution with <em>S. cerevisiae</em></p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-links">
+        <a href="https://github.com/alexgresham29/myFirstRepo" target="_blank">GitHub</a>
+        <a href="mailto:alexgresham10@gmail.com">alexgresham10@gmail.com</a>
+      </div>
+      <p>Alex Gresham &middot; Gresham Lab Summer Bootcamp 2026</p>
+    </div>
+  </footer>
+
+</body>
+</html>
