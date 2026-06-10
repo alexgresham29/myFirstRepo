@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Source+Serif+4:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Fira+Code:wght@400;500&display=swap');
+
+/* ── Base typography ── */
+body, p, li, td, th {
+  font-family: 'Source Serif 4', Georgia, serif;
+  font-size: 16.5px;
+  line-height: 1.85;
+  color: #1a1a2e;
+}
+
+/* ── Headings ── */
+h1, h2, h3, h4 {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-weight: 700;
+  color: #12233a;
+  letter-spacing: -0.02em;
+}
+
+h1.title {
+  font-size: 2.6rem;
+  border-bottom: 3px solid #3D6B9E;
+  padding-bottom: 0.4em;
+  margin-bottom: 0.3em;
+}
+
+h2 {
+  font-size: 1.7rem;
+  margin-top: 2.2em;
+  border-bottom: 1px solid #d0d8e4;
+  padding-bottom: 0.25em;
+}
+
+h3 {
+  font-size: 1.3rem;
+  font-style: italic;
+  font-weight: 600;
+}
+
+/* ── Code blocks ── */
+code, pre, .sourceCode {
+  font-family: 'Fira Code', 'Courier New', monospace !important;
+  font-size: 13.5px;
+}
+
+pre.sourceCode {
+  background-color: #f4f6f9;
+  border-left: 4px solid #3D6B9E;
+  border-radius: 4px;
+  padding: 1em 1.2em;
+}
+
+/* ── Callout boxes ── */
+.callout {
+  background: linear-gradient(135deg, #eef3fa 0%, #f6f9fe 100%);
+  border-left: 5px solid #3D6B9E;
+  border-radius: 0 6px 6px 0;
+  padding: 1em 1.4em;
+  margin: 1.6em 0;
+  font-family: 'Source Serif 4', serif;
+  font-size: 15.5px;
+  color: #1a2a3a;
+}
+
+.callout strong {
+  color: #3D6B9E;
+  font-family: 'Playfair Display', serif;
+}
+
+/* ── Chapter intros ── */
+.chapter-intro {
+  font-family: 'Source Serif 4', serif;
+  font-size: 17.5px;
+  font-style: italic;
+  color: #2c3e50;
+  line-height: 1.9;
+  margin: 1.2em 0 1.8em;
+  padding: 0.6em 1.6em;
+  border-left: 3px solid #c8d8ea;
+}
+
+/* ── Tables ── */
+table {
+  font-family: 'Source Serif 4', serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1.4em 0;
+}
+
+thead tr {
+  background-color: #3D6B9E;
+  color: white;
+  font-family: 'Playfair Display', serif;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+th, td {
+  padding: 0.7em 1em;
+  border-bottom: 1px solid #dde4ee;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f5f8fc;
+}
+
+/* ── Inline code ── */
+code:not(.sourceCode) {
+  background: #eef1f7;
+  padding: 0.15em 0.45em;
+  border-radius: 3px;
+  color: #2a4a7f;
+  font-size: 0.88em;
+}
+
+/* ── TOC sidebar ── */
+.tocify {
+  font-family: 'Source Serif 4', serif;
+  font-size: 14px;
+  border: none;
+  border-right: 1px solid #dde4ee;
+}
+
+.tocify-header {
+  color: #3D6B9E;
+  font-weight: 600;
+}
+
+/* ── Math ── */
+.math {
+  font-size: 1.1em;
+}
+
+/* ── Horizontal rules ── */
+hr {
+  border: none;
+  border-top: 1px solid #d0d8e4;
+  margin: 2.5em 0;
+}
+
+/* ── Plot captions / figure output ── */
+.figure {
+  margin: 1.8em auto;
+}
